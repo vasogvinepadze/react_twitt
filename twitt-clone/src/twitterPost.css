@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twitt-post {
+  width: 380px;
+  height: auto;
+
+  background-color: rgb(12, 8, 8);
+  border-radius: 8px;
+  margin: 30px;
+  padding: 10px;
+}
+.user-info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  top: -50px;
+  left: 60px;
+}
+
+.btnOne {
+  position: relative;
+  top: -50px;
+  left: 140px;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  font-size: 26px;
+}
+.post-text,
+.user-text {
+  background-color: rgb(3, 3, 31);
+  padding: 20px;
+  margin: 10px;
+  min-width: 100px;
+}
+
+.post-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+p,
+h3 {
+  color: white;
+}
+
+.comment {
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #052438;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.btn button {
+  background-color: transparent;
+  border: none;
+  color: #657786;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.btns button {
+  background-color: transparent;
+  border: none;
+  color: #657786;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.dot {
+  width: 40px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  color: #ffff;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.news-feed {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
